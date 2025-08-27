@@ -1,10 +1,11 @@
 ﻿// Create a structure named “Point” and 2 data members: X and Y coordinate. Declare 2 points: P1 and P2.
 // Determine if P2 is to the right or left of P1 or on same axis , by comparing the x xoordinates.
 // ( if p1.x is more than p2.x , it is to the right )
+using System.Drawing;
 class Point
 {
-    pusing System.Drawing;
-ublic double XCoordinate { get; set; }
+    
+    public double XCoordinate { get; set; }
     public double YCoordinate { get; set; }
     public Point(int x, int y)
     {
